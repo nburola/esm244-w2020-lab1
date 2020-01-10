@@ -68,10 +68,12 @@ Export Your Salmon Value Graph With GGSave
 ! Just a reminder that GGsave only applies to the most recent run version of the graph that  was run previously 
 
 ```{r}
-ggsave (plot = salmon_landings_graph, 
-        here("figures", "us_salmon_NB.png"), 
+ggsave(plot = salmon_landings_graph, 
+        here("figures", "us_salmon_NB.jpg"), 
         height = 7, 
         width = 7)
+
+#xquartz 
 ```
 
 Make A Nice Kable Table 
